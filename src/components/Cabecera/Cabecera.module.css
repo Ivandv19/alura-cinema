@@ -1,4 +1,4 @@
-.cabecera{
+.cabecera {
     width: 100%;
     height: auto;
     display: flex;
@@ -8,9 +8,12 @@
     background-color: var(--negro);
     box-sizing: border-box;
 }
-a{ text-decoration: none;}
 
-.logoContainer{
+a {
+    text-decoration: none;
+}
+
+.logoContainer {
     height: 40px;
     display: flex;
     align-items: center;
@@ -27,4 +30,13 @@ a{ text-decoration: none;}
     color: white;
     margin-left: 8px;
     font-size: 1.5rem;
+}
+
+
+@media (max-width: 599px) {
+   .cabecera{
+    flex-direction: column;
+    gap: 15px;
+   }
+
 }

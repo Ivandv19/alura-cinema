@@ -1,6 +1,31 @@
-.container{
-    display: flex;
-    gap: 1rem;
-    justify-content: space-around;
-    padding: 50px 20px;
+.container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  padding: 50px 20px;
+}
+
+.mainInicio {
+  width: 100%;
+  height: auto;
+}
+
+
+@media (min-width: 600px) and (max-width: 1199px) {
+
+  .container {
+    display: 100%;
+    height: auto;
+    flex-wrap: wrap;
   }
+
+}
+
+@media (max-width: 599px) {
+  .container {
+    display: 100%;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+}
