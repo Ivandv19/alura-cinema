@@ -11,7 +11,7 @@ function Inicio() {
   // Efecto para cargar los videos desde la API cuando el componente se monta.
   useEffect(() => {
     fetch(
-      "https://my-json-server.typicode.com/DaniRiverol/alura-cinema-api/videos" // URL de la API para obtener videos.
+      "https://my-json-server.typicode.com/Ivanmx19/api_info_alura-cinema/videos" // URL de la API para obtener videos.
     )
       .then((response) => response.json()) // Convierte la respuesta en JSON.
       .then((data) => {
