@@ -3,13 +3,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px ;
+    padding: 50px ;
 
 }
 
-.pie h2 {
+.pie p {
     color: var(--blanco);
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
 }
 
