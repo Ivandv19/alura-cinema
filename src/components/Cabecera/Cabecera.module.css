@@ -6,6 +6,7 @@
     align-items: center;
     padding: 30px 20px;
     background-color: var(--negro);
+    box-sizing: border-box;
 }
 a{ text-decoration: none;}
 

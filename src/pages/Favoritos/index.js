@@ -10,15 +10,18 @@ function Favoritos() {
 
   return (
     <>
-      <Banner img="favorite" color="#44d97d" /> {/* Muestra el componente Banner con la imagen "favorite" y color de fondo "#44d97d". */}
-      <Titulo>
-        <h1>Mis favoritos</h1> {/* Muestra el título de la página "Mis favoritos". */}
-      </Titulo>
-      <section className={styles.container}> {/* Contenedor para los favoritos con estilos del módulo CSS. */}
-        {favorito.map((fav) => { // Itera sobre el array de favoritos.
-          return <Card {...fav} key={fav.id} />; // Renderiza un componente Card para cada favorito, pasando todas las propiedades del favorito.
-        })}
-      </section>
+      <main>
+        <Banner img="favorite" color="#44d97d" /> {/* Muestra el componente Banner con la imagen "favorite" y color de fondo "#44d97d". */}
+        <Titulo>
+          <h1>Mis favoritos</h1> {/* Muestra el título de la página "Mis favoritos". */}
+        </Titulo>
+        <section className={styles.container}> {/* Contenedor para los favoritos con estilos del módulo CSS. */}
+          {favorito.map((fav) => { // Itera sobre el array de favoritos.
+            return <Card {...fav} key={fav.id} />; // Renderiza un componente Card para cada favorito, pasando todas las propiedades del favorito.
+          })}
+        </section>
+      </main>
+
     </>
   );
 }
