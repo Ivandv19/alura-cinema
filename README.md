@@ -5,7 +5,6 @@ Este proyecto es una aplicación para gestionar y visualizar videos, con funcion
 ## Características
 
 - **Visualización de videos:** Muestra una galería de videos con la capacidad de visualizar y agregar a una seccion de favoritos
-
 - **Interactividad:** Navega entre diferentes paginas para vizualizar y agregar a una seccion especiald e favoritos.
 - **Diseño Responsivo:** Adaptado para diferentes dispositivos y tamaños de pantalla.
 
@@ -17,29 +16,26 @@ Este proyecto es una aplicación para gestionar y visualizar videos, con funcion
 
 ## Tecnologías Utilizadas
 
-- HTML
-- CSS
-- JavaScript
-- React
-- JSON Server
-- Node.js
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **React**
+- **Node.js**
+
 
 ## Instalación
 
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
-
-   ```bash
-   git clone https://github.com/Ivanmx19/SpaceAppv2.git
-   ```
-2. **Instalar Dependencias:** Navega al directorio del proyecto y ejecuta:
-
 ```bash
-npm install
+   https://github.com/IvandevI9/alura-cinema.git
+```
+2. **Instalar Dependencias:** Navega al directorio del proyecto y ejecuta:
+```bash
+   npm install
 ```
 3. **Iniciar el Proyecto:** Ejecuta el proyecto localmente con:
-
 ```bash
-npm start
+   npm start
 ```
 
 ## Créditos
