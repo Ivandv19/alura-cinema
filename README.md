@@ -1,4 +1,4 @@
-# Proyecto de Gestión de Videos
+# Proyecto de Gestión de Videos - Alura Cinema
 
 Este proyecto es una aplicación para gestionar y visualizar videos, con funcionalidades como vizualizar y agregar a una seccion especial de favoritos. Está diseñado para proporcionar una experiencia interactiva y visualmente atractiva.
 
