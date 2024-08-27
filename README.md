@@ -10,7 +10,7 @@ Este proyecto es una aplicación para gestionar y visualizar videos, con funcion
 
 ## Uso
 
-1. **Visualización del Proyecto:** Instala el repositorio de manera local o visita el enlace desplegado en [Vercel](https://alura-cinema-gamma.vercel.app/).
+1. **Visualización del Proyecto:** Instala el repositorio de manera local y abre el archivo `index.html` en tu navegador web o visita el enlace desplegado en [Vercel](https://alura-cinema-gamma.vercel.app/).
 3. **Ver Detalles de videos:** Haz clic en un videos para ver su contenido completo dentro de un reproductor especial
 4. **Navegar en la Galería de videos:** Explora la galería para ver diferentes videos y detalles asociados.
 
@@ -27,15 +27,15 @@ Este proyecto es una aplicación para gestionar y visualizar videos, con funcion
 
 1. **Clonar el Repositorio:** Clona este repositorio en tu máquina local utilizando Git.
 ```bash
-   https://github.com/IvandevI9/alura-cinema.git
+https://github.com/IvandevI9/alura-cinema.git
 ```
 2. **Instalar Dependencias:** Navega al directorio del proyecto y ejecuta:
 ```bash
-   npm install
+npm install
 ```
 3. **Iniciar el Proyecto:** Ejecuta el proyecto localmente con:
 ```bash
-   npm start
+npm start
 ```
 
 ## Créditos
