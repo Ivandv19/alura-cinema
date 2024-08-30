@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-.container h2, .favorito {
+.container h2,
+.favorito {
     padding: 0 1em;
 }
 
@@ -25,4 +26,16 @@
     text-decoration: none;
     color: inherit;
     text-align: left;
+}
+
+@media (max-width: 599px) {
+    .container h2 {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .container img {
+        padding: 0;
+        margin: 0 auto;
+    }
 }

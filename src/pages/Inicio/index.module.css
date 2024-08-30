@@ -11,6 +11,7 @@
 }
 
 
+
 @media (min-width: 600px) and (max-width: 1199px) {
 
   .container {
@@ -26,6 +27,11 @@
     display: 100%;
     height: auto;
     flex-wrap: wrap;
+  }
+
+  .mainInicio h1{
+  font-size: 24px;
+  margin: 50px 20px 0;
   }
 
 }
