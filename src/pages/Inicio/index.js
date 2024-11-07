@@ -27,16 +27,12 @@ function Inicio() {
         <Titulo>
           <h1>Un lugar para guardar sus videos favoritos </h1> {/* Muestra el título de la página. */}
         </Titulo>
-
         <section className={styles.container}> {/* Contenedor principal para los videos con estilos del módulo CSS. */}
           {videos.map((video) => { // Itera sobre el array de videos.
             return <Card {...video} key={video.id} />; // Renderiza un componente Card para cada video, pasando todas las propiedades del video.
           })}
         </section>
       </main>
-
-
-
     </>
   );
 }

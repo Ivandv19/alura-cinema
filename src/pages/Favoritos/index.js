@@ -1,3 +1,4 @@
+
 import Banner from "components/Banner";
 import styles from "./Favoritos.module.css";
 import Titulo from "components/Titulo";
@@ -11,17 +12,23 @@ function Favoritos() {
   return (
     <>
       <main>
-        <Banner img="favorite" color="#44d97d" /> {/* Muestra el componente Banner con la imagen "favorite" y color de fondo "#44d97d". */}
+        {/* Muestra el componente Banner con la imagen "favorite" y color de fondo "#44d97d". */}
+        <Banner img="favorite" color="#44d97d" />
+        
         <Titulo>
-          <h1>Mis favoritos</h1> {/* Muestra el título de la página "Mis favoritos". */}
+          {/* Muestra el título de la página "Mis favoritos". */}
+          <h1>Mis favoritos</h1>
         </Titulo>
-        <section className={styles.container}> {/* Contenedor para los favoritos con estilos del módulo CSS. */}
-          {favorito.map((fav) => { // Itera sobre el array de favoritos.
-            return <Card {...fav} key={fav.id} />; // Renderiza un componente Card para cada favorito, pasando todas las propiedades del favorito.
+        
+        {/* Contenedor para los favoritos con estilos del módulo CSS. */}
+        <section className={styles.container}>
+          {/* Itera sobre el array de favoritos. */}
+          {favorito.map((fav) => {
+            // Renderiza un componente Card para cada favorito, pasando todas las propiedades del favorito.
+            return <Card {...fav} key={fav.id} />;
           })}
         </section>
       </main>
-
     </>
   );
 }
