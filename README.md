@@ -44,7 +44,7 @@ npm start
 
 ## Despliegue
 
-- El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [AluraCinema](https://alura-cinema-gamma.vercel.app).
+- El sitio web está desplegado en Vercel y se puede acceder a través del siguiente enlace: [AluraCinema]( https://alura-cinema-gamma.vercel.app/ ).
 
 ## Licencia
 - Este proyecto está bajo la Licencia MIT.
