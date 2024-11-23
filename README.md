@@ -51,4 +51,11 @@ npm start
 ## Licencia
 - Este proyecto está bajo la Licencia MIT.
 
+## Imagen
+
+![alura-cinema-gamma vercel app_]( https://github.com/user-attachments/assets/c215394f-cfab-4ba9-950b-ac34b6fad31e )
+
+
 ## Proyecto En Portafolio Web
+
+-Este proyecto es parte de los proyectos mostrados en mi portafolio web
