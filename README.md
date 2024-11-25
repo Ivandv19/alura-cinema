@@ -53,9 +53,8 @@ npm start
 
 ## Imagen
 
-![alura-cinema-gamma vercel app_]( https://github.com/user-attachments/assets/c215394f-cfab-4ba9-950b-ac34b6fad31e )
+![alura-cinema]( https://github.com/user-attachments/assets/004bbc14-0d03-4189-b985-bf6f41be80c8 )
 
-
-## Proyecto En Portafolio Web
+## Proyecto En Portafolio Web ##5
 
 -Este proyecto es parte de los proyectos mostrados en mi portafolio web
