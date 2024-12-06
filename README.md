@@ -1,5 +1,8 @@
 # Alura Cinema
 
+[![wakatime](https://wakatime.com/badge/github/Ivandv19/alura-cinema.svg)](https://wakatime.com/badge/github/Ivandv19/alura-cinema)
+[![wakatime](https://wakatime.com/badge/user/c585b1da-c687-4d3b-89c1-72901e86fb52/project/47169c18-f256-4461-819f-fa1af7f3ad85.svg)](https://wakatime.com/badge/user/c585b1da-c687-4d3b-89c1-72901e86fb52/project/47169c18-f256-4461-819f-fa1af7f3ad85)
+
 ## Descripción
 
 Este proyecto es una aplicación para gestionar y visualizar videos, con funcionalidades como vizualizar y agregar a una seccion especial de favoritos. Está diseñado para proporcionar una experiencia interactiva y visualmente atractiva.
